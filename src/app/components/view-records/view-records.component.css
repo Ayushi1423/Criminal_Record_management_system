@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+  }
+  
+  table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background: gray;
+    color: white;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:first-child {
+    background: blue;
+    color: white;
+  }
+  
+  button:last-child {
+    background: red;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

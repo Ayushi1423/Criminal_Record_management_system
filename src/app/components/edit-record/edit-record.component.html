@@ -1,0 +1,14 @@
+<h2>Edit Criminal Record</h2>
+
+<form [formGroup]="editForm" (ngSubmit)="updateRecord()">
+  <label>Name:</label>
+  <input type="text" formControlName="name" required>
+
+  <label>Crime Type:</label>
+  <input type="text" formControlName="crimeType" required>
+
+  <label>Age:</label>
+  <input type="number" formControlName="age" required>
+
+  <button type="submit">Update</button>
+</form>
